@@ -1,0 +1,372 @@
+body{
+    background-color: #F9F9F9;
+}
+
+.nav-item a {
+  color: black;
+}
+.nav-item a:hover {
+  color: gold;
+}
+.row1 {
+  background-color: #101e5d;
+  padding: 5px;
+}
+.col {
+  padding: 5px;
+  color: white;
+}
+.drop{
+    background-color: white;
+    color:black;
+    border:none;
+}
+.drop:hover{
+    background-color: white;
+    color:goldenrod;
+}
+.color{
+    color: black;
+}
+.btn {
+  color: white;
+}
+.btn:hover {
+  color: goldenrod;
+}
+.image {
+  width: 100%;
+  height: 600px;
+}
+.heading {
+  color: white;
+  font-weight: bold;
+}
+.text {
+  color: white;
+}
+.start-btn {
+  border-radius: 70px;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+}
+.start-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+.start-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+.start-btn:hover span {
+  color: gold;
+  padding-right: 25px;
+}
+.start-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.description {
+  position: absolute;
+  top: 5%;
+  padding: 30px;
+}
+.container1 {
+  position: relative;
+  padding: 0;
+}
+.container-bar {
+  background-color: goldenrod;
+  padding: 25px;
+}
+.container-find {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.d-btn{
+    background-color: white;
+    color:black;
+    border: none;
+}
+.checked{
+    color: goldenrod;
+}
+hr{
+    color:grey;
+}
+.d-btn:hover{
+    background-color: white;
+    color:goldenrod;
+}
+.nav-btn {
+  width: 150px;
+  font-weight: bold;
+  color: white;
+  background-color: #28282b;
+}
+.card-title {
+  cursor: pointer;
+  color: goldenrod;
+  text-align:center;
+}
+.card-title:hover {
+  color: black;
+}
+.card-text {
+  color: #28282b;
+  text-align: center;
+}
+.primary-btn {
+  background-color: white;
+  color:grey;
+  border:none;
+  display:flex;
+  justify-content: center;
+}
+.primary-btn:hover {
+  color: white;
+  background-color: goldenrod;
+}
+
+.card1{
+    box-shadow: 5px 5px lightgrey;
+    border-radius: 10px;
+}
+
+.card1:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.spec{
+    padding:5px;
+    color:goldenrod;
+}
+.span{
+    color:black;
+}
+
+@media only screen and (max-width: 560px) {
+  .mycard {
+    display: block;
+  }
+}
+.main{
+    color:grey;
+    font-size:5rem;
+    opacity: 0.2;
+    font-weight: bold;
+    
+    
+}
+.container-cars{
+    position:relative;
+}
+.sub{
+    position:absolute;
+    font-weight: bold;
+    font-size: 1.7rem;
+    left:30px;
+    bottom:20px;
+}
+.facilties{
+    display:flex;
+    justify-content: center;
+}
+.button{
+    display:flex;
+    justify-content: center;
+    padding:30px;
+
+}
+.more{
+    background-color: whitesmoke;
+    color:black;
+    border:none;
+    border-radius:15px;
+    width:20%;
+    padding:5px;
+    transition: 0.3s;
+}
+.more:hover{
+    background-color: goldenrod;
+    color:white;
+}
+.card{
+    border-radius: 20px;
+}
+
+.img1{
+    width:100%;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.img2{
+    width:50%;
+    border-radius: 25px;
+    transition: 0.3s;
+    max-height: 195px;
+    display:flex;
+    align-self: flex-end;
+}
+.img3{
+    width:50%;
+    border-radius: 20px;
+    transition: 0.3s;
+    
+    
+}
+.img4{
+    width:100%;
+    height:440px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.img1:hover{
+    cursor:pointer;
+    opacity: 0.6;
+}
+.img2:hover{
+    cursor:pointer;
+    opacity: 0.6;
+}
+.img3:hover{
+    cursor:pointer;
+    opacity: 0.6;
+}
+.img4:hover{
+    cursor:pointer;
+    opacity: 0.6;
+}
+
+.abc{
+    margin-left:35px;
+    color:white;
+}
+.title-head{
+    font-weight: bold;
+}
+.paperclip{
+    margin-top:10px;
+    font-size:20px;
+}
+.footer{
+    background-color:#0B0E6C;
+    padding:15px;
+    
+}
+.foot{
+    color:white;
+    font-weight: bold;
+    font-size: 2.0rem;
+margin:20px;
+}
+.last-btn{
+    background-color: goldenrod;
+    padding:15px;
+    width:20%;
+     border-radius: 10px;
+     border: none;
+}
+.last-btn:hover{
+    background-color:#28282b
+}
+.plane{
+    color:white;
+    font-size: 1.5rem;
+}
+.form{
+    width:50%;
+    height:60px;
+    padding:10px;
+    border-radius: 10px;
+}
+.last-text{
+    color:#C5A19B;
+    width:50%;
+    margin:20px;
+}
+.last-head{
+    color:white;
+    margin:20px;
+}
+.contact{
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.info{
+    color:#C5A19B;
+    padding:5px;
+}
+.sportscar{
+    width:40%;
+    height:40px;
+}
+.last-col{
+    display:flex;
+}
+.audi{
+    height:252px
+}
+
+  .end-col{
+    display:flex;
+    justify-content:flex-end ;
+  }
+  .end-btn{
+    color:goldenrod;
+    background-color:#1B1E83;
+    width: 7%;
+    height:50px;
+  }
+  .end-btn:hover{
+    opacity:0.7;
+  }
+ 
+.links{
+    color:#C5A19B;
+}
+.rights{
+    color:#C5A19B;
+}
+.card{
+  
+width:18rem;
+margin:0 auto;
+transition: 0.3s;
+}
+.card:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  
+}
+.picture{
+  width:17.9rem;
+  border-radius: 10px;
+}
+.card-text{
+  color:#28282b;
+}
+.card-wrapper{
+  display: flex;
+}
